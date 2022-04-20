@@ -1,0 +1,21 @@
+[ {
+  "uid" : "78f1edd8c199c2e3",
+  "name" : "Click on the main button",
+  "time" : {
+    "start" : 1650472940822,
+    "stop" : 1650472952780,
+    "duration" : 11958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de2020a8fea00bb7",
+  "name" : "",
+  "time" : {
+    "start" : 1650472835780,
+    "stop" : 1650472836139,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

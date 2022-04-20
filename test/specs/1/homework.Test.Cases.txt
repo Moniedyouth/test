@@ -1,0 +1,55 @@
+Test suite (Github Main Page)
+    1. Search refers to Search Page with empty input value.
+    2. Search shows result by user input ("Mocha").
+    3. Search shows 'not found result' by user input (random string).
+    4. Sign up works with valid e-mail.
+    5. Sign up shows validation error with not valid e-mail.
+    6. Show animated block when it's in a viewport.
+
+    Test case 1. (Search refers to Search Page with empty input value.).
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Find search form. - Search form exists.
+    3. Click search form. - Search form is focused.
+    4. Press Enter. - Relocate new page.
+    5. Find input search. - Input search exists.
+    6. Log current URL. - URL of search page is shown in log.
+    7. Log text from input search - Empty string is shown in log.
+
+    Test case 2. (Search shows result by user input ("Mocha")).
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Find search form. - Search form exists.
+    3. Click search form. - Search form is focused.
+    4. Input "Mocha" into search form. - "Mocha" is displayed in search form.
+    5. Press Enter. - Relocate new page.
+    6. Log current URL. - URL of search page is shown in log.
+    7. Log header which has text "repository results"  - Text "repository results" is shown in log.
+
+    Test case 3. (Search shows 'not found result' by user input (random string)).
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Find search form. - Search form exists.
+    3. Click search form. - Search form is focused.
+    4. Generate random text into search form - Random text is displayed into search form.
+    5. Press Enter. - Relocate new page.
+    6. Log current URL. - URL of search page is shown in log.
+    7. Log  header which has text "We couldn’t find any repositories matching" - Text "We couldn’t find any repositories matching" is shown in log.
+
+    Test case 4. (Sign up works with valid e-mail.).
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Find email sing up form - Email sing up form exists.
+    3. Click email sing up form. - Email sing up form is focused.
+    4. Input "ukraine@com.ua" into email sing up form. - Email "ukraine@com.ua" is valid.
+    5. Click on sing up button - Relocate to new page.
+    6. Log current URL. - URL of sing up page is shown in log.
+
+    Test case 5. (Sign up shows validation error with not valid e-mail.)
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Find email sing up form - Email sing up form exists.
+    3. Click email sing up form. - Email sing up form is focused. 
+    4. Input "not-valid-email" into email sing up form. - Email "not-valid-email" is not valid.
+    5. Log current URL. - URL of the main page is shown in log.
+
+    Test case 6. (how animated block when it's in a viewport).
+    1. Open https://github.com/ - Main page "GitHub" is opened.
+    2. Log animated block in a viewport. - Log "false".
+    3. Scroll down. -  Appear animated block in a viewport.
+    4. Log animated block in a viewport. - Log "true".

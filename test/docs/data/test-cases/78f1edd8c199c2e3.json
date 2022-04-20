@@ -1,0 +1,62 @@
+{
+  "uid" : "78f1edd8c199c2e3",
+  "name" : "Click on the main button",
+  "fullName" : "Click on the button.Click on the main button",
+  "historyId" : "eb3d36d030053aca3612f60890a41050",
+  "time" : {
+    "start" : 1650472940822,
+    "stop" : 1650472952780,
+    "duration" : 11958
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Click on the button"
+  }, {
+    "name" : "testClass",
+    "value" : "Click on the button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on the main button"
+  }, {
+    "name" : "package",
+    "value" : "Click on the button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78f1edd8c199c2e3.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
