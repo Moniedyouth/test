@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650797891333' stop='1650797891339'>
+    <name>Tests</name>
+    <title>Tests</title>
+    <test-cases>
+        <test-case start='1650797891333' status='broken' stop='1650797891337'>
+            <name>Onus</name>
+            <title>Onus</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>names is not defined</message>
+                <stack-trace>ReferenceError: names is not defined
+                    at Object.nameShow (C:\Users\Max\Desktop\projects\webdriverio-test\test\specs\1\test1.js:7:28)
+                    at Context.&lt;anonymous> (C:\Users\Max\Desktop\projects\webdriverio-test\test\specs\1\test1.js:10:36)
+                    at Context.executeAsync (C:\Users\Max\Desktop\projects\webdriverio-test\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\Max\Desktop\projects\webdriverio-test\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
